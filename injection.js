@@ -28,7 +28,7 @@ var config = {
             text: `regona | t.me/regonaa`,
             icon_url: "https://media.discordapp.net/attachments/915716998414102572/1077903822069964891/Screenshot_20230214_205451.jpg?width=680&height=676",
         },
-        href: "https://t.me/doenerium",
+        href: "https://t.me/regonaa",
         avatar_url: "https://media.discordapp.net/attachments/915716998414102572/1077903822069964891/Screenshot_20230214_205451.jpg?width=680&height=676"
     },
 
